@@ -1,0 +1,33 @@
+* {
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+.notFoundContainer {
+  background-color: #000000;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .notFoundContainer {
+    background-color: #000000;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .notFoundHeading {
+    text-align: center;
+    font-size: 23px;
+  }
+  .notFoundDescription {
+    text-align: center;
+    font-size: 13px;
+  }
+}

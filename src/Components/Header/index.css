@@ -1,0 +1,76 @@
+* {
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .aboveHeaderContainer {
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .webSiteLogoContainer {
+    padding-top: 12px;
+  }
+  .websiteLogoImage {
+    width: 130px;
+  }
+  .ulContainer {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .eachListItem {
+    display: flex;
+    margin: 10px;
+    font-size: 19px;
+  }
+  .belowHeaderContainer {
+    display: none;
+  }
+  .logoutButton {
+    background-color: #6366f1;
+    padding: 7px;
+    border-width: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboveHeaderContainer {
+    display: none;
+  }
+  .belowHeaderContainer {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .belowWebsiteLogo {
+    width: 90px;
+  }
+  .eachReactIcon {
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+  }
+  .commonButton {
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+  }
+  .listItem {
+    list-style-type: none;
+    padding: 0px;
+  }
+}

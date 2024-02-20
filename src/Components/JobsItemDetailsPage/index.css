@@ -1,0 +1,120 @@
+.eachJobsDetailsContainer {
+  background-color: #121212;
+  padding: 20px;
+  max-height: 100%;
+  min-height: 100vh;
+}
+.specificCardDetailsContainer {
+  background-color: #272727;
+  padding: 40px;
+  border-radius: 10px;
+}
+.loader-container {
+  min-height: 70vh;
+}
+.visitAndHeadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.anchorContainer {
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+}
+.visit {
+  color: #6366f1;
+}
+.visitLogo {
+  height: 20px;
+  width: 20px;
+  color: #6366f1;
+}
+.skillsContainer {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.eachSkillItem {
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 10px;
+}
+.skillImage {
+  width: 60px;
+  margin-right: 10px;
+}
+.lifeAtCompanyContainer {
+  display: flex;
+}
+.lifeAtCompanyPara {
+  padding-right: 10px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.descriptionHeading {
+  font-size: 26px;
+}
+.SimilarJobsContainer {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.eachSmiliarJobsContainer {
+  background-color: #272727;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 320px;
+  max-width: 320px;
+}
+.similarjobsPara {
+  line-height: 1.5;
+}
+.belowContainer {
+  display: flex;
+  align-items: center;
+}
+.eachlogoAndLabelItem {
+  display: flex;
+  align-items: center;
+}
+.labelItem {
+  margin-right: 20px;
+}
+.eachLogoItem {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.eachFailureJobContainer {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .skillImage {
+    width: 40px;
+    margin-right: 20px;
+    margin: 10px;
+  }
+  .eachSkillItem {
+    min-width: 100px;
+    max-width: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lifeAtCompanyContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
